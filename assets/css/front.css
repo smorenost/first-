@@ -1,0 +1,11 @@
+#left-sidebar {
+    border: 1px solid red;
+}
+
+#content {
+    border: 1px solid black;
+}
+
+#right-sidebar {
+    border: 1px solid green;
+}
