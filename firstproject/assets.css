@@ -1,0 +1,72 @@
+body {
+    background-color: darkgrey;
+    margin-top: 100px;
+}
+#left-sidebar {
+
+    float: left;
+    border: 1px solid red;
+    text-align: left;
+    width: 10%;
+}
+
+#content {
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    margin-left: 40px;
+}
+
+#right-sidebar {
+    float: right;
+    border: 1px solid green;
+    text-align: right;
+    width: 33%;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+.verticaltext{
+    width:1px;
+    word-wrap: break-word;
+}
+header{
+    background-color: #000;
+    width: 100%;
+    z-index: 13;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    color: #ffffff;
+    margin-left: -8px;
+}
+.buttom {
+    border: none;
+    color: white;
+    padding: 1px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+ul li {
+    border: 1px solid #ddd; /* Add a thin border to each list item */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Add a grey background color */
+    padding: 6px; /* Add some padding */
+
+}
